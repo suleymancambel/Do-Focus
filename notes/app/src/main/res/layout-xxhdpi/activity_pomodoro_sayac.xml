@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/con"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    android:orientation="vertical"
+    tools:context=".pomodoro_sayac">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/sayacbanner"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/sayac_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+
+    <ProgressBar
+        android:id="@+id/progressbartime"
+        style="@style/CircularDeterminateProgressBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/circle_bar"
+        android:theme="@style/AppTheme.Dialog"
+        app:layout_constraintBottom_toTopOf="@+id/startbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sayacbanner" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="80dp"
+        android:layout_weight="2"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/producksansregular"
+        android:gravity="center"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:text="başla"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reset"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="2"
+        android:background="@drawable/btnend"
+        android:fontFamily="@font/producksansregular"
+        android:gravity="center"
+        android:text="reset"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/timepomodoro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#211D44"
+        android:text="25:00"
+        android:textColor="#FFFFFF"
+        android:textSize="55dip"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/progressbartime"
+        app:layout_constraintEnd_toEndOf="@+id/progressbartime"
+        app:layout_constraintStart_toStartOf="@+id/progressbartime"
+        app:layout_constraintTop_toTopOf="@+id/progressbartime"
+        app:layout_constraintVertical_bias="0.501" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

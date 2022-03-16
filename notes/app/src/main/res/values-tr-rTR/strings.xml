@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Do Focus</string>
+    <string name="search">Ara</string>
+    <string name="Pomodorobtn">POMODORO</string>
+    <string name="todo">Notlarım</string>
+    <string name="Nofilter">Filtreyi Kaldır</string>
+    <string name="hightolow">Azalan Önem</string>
+    <string name="LowToHigh">Artan Önem</string>
+    <string name="title">Başlık</string>
+    <string name="subtitle">Konu</string>
+    <string name="note">Notum...</string>
+    <string name="startpomodorosayac">Başla</string>
+    <string name="stoppomodoro">Durdur</string>
+    <string name="resetpomodro">Sıfırla</string>
+    <string name="notsupdate">Güncelle</string>
+    <string name="NoteCreate">Not Oluştur</string>
+    <string name="delete">Sil</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="deletesure">Silmek İstediğinize\n Emin Misiniz?</string>
+    <string name="notes">Notlarım</string>
+    <string name="important">Öncelik</string>
+    <string name="Pausejava">Durdur</string>
+    <string name="sure_bitti">Süre Bitti...</string>
+    <string name="mola_yap">Mola Yapmak İster Misin ?</string>
+    <string name="mola_bitti">Mola Bitti...</string>
+    <string name="calıs">Çalışmaya devam etmek ister misin ?</string>
+    <string name="banner_ana_ekran">\tca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_test">\tca-app-pub-3940256099942544/6300978111</string>
+    <string name="sayac_banner">\tca-app-pub-3940256099942544/6300978111</string>
+    <string name="adsinter">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interads_reel">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="testinterad">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="adsname">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

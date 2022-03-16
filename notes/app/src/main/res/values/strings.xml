@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Do Focus</string>
+    <string name="search">Search</string>
+    <string name="Pomodorobtn">POMODORO</string>
+    <string name="todo">Notes</string>
+    <string name="Nofilter">No filter</string>
+    <string name="hightolow">High To Low</string>
+    <string name="LowToHigh">Low To High</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="note">Note...</string>
+    <string name="startpomodorosayac">Start</string>
+    <string name="stoppomodoro">Pause</string>
+    <string name="resetpomodro">Reset</string>
+    <string name="notsupdate">Update</string>
+    <string name="NoteCreate">Create Note</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deletesure">Are You Sure You\n want to delete ?</string>
+    <string name="notes">Notes</string>
+    <string name="important">Priority</string>
+    <string name="Pausejava">Pause</string>
+    <string name="sure_bitti">Time Up</string>
+    <string name="mola_yap">Do you want to take a break ?</string>
+    <string name="mola_bitti">The break is over</string>
+    <string name="calıs">Do you want study lesson ?</string>
+    <string name="banner_ana_ekran">\tca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_test">\tca-app-pub-3940256099942544/6300978111</string>
+    <string name="sayac_banner">\tca-app-pub-3940256099942544/6300978111</string>
+    <string name="adsinter">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interads_reel">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="testinterad">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="adsname" />
+    <string name="adsname">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

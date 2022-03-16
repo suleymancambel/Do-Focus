@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/backround_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".progresstart">
+
+    <ImageView
+        android:id="@+id/imageViewpomo"
+        android:layout_width="550dp"
+        android:layout_height="650dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imgp"
+        tools:layout_editor_absoluteX="125dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pomodoro"
+
+
+        android:layout_width="320dp"
+
+        android:layout_height="80dp"
+
+
+        android:background="@drawable/btn"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Pomodoro Sayaç"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="240dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnset3"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Pomodoro Kronometre"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="480dp"
+        tools:layout_editor_absoluteY="1130dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
